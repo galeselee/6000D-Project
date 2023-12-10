@@ -2,7 +2,7 @@
 
 This is the Project for DSAA 6000D(Graph Processing and Analytics, Prof. Luo) project. The main purpose of this repo is to reproduce the paper "Heuristic Adaptability to Input Dynamics for SpMM on GPUs" and profile the whole SparseSuite to find some insight for optimization general spmm.
 
-Some code files are borrowed from [Ge-spmm](https://github.com/hgyhungry/ge-spmm) and [dgSPARSE](https://github.com/dgSPARSE)
+Part code files are borrowed from [Ge-spmm](https://github.com/hgyhungry/ge-spmm) and [dgSPARSE](https://github.com/dgSPARSE)
 
 ## Dependency
 1. cuda
