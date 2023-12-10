@@ -13,7 +13,7 @@ Some code files are borrowed from [Ge-spmm](https://github.com/hgyhungry/ge-spmm
 ```
 ├── data_example
 │   └── ash219.mtx  # SparseSuite data example
-├── download
+├── download #Please kindly download the dataset, the whole dataset is over 300GB
 │   ├── download.py # script to download sparsesuite
 │   └── download.sh # script to launch the download.py
 ├── README.md
