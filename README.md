@@ -21,6 +21,13 @@ Some code files are borrowed from [Ge-spmm](https://github.com/hgyhungry/ge-spmm
 │   ├── get_matrix_feature.cpp # collect the matrix feature, such as nrow, ncol, nnz 
 │   ├── preprocess_data.py 
 │   └── spmm.cu # launch the test
+├── experiment_result # experiments result for sparsesuite
+│   ├── 1024.csv
+│   ├── 128.csv
+│   ├── 16.csv
+│   ├── 20.csv
+│   ├── 256.csv
+│   └── 64.csv
 └── src
     ├── kernel
     │   ├── csrspmm_non_transpose.cu
