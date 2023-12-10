@@ -21,9 +21,6 @@ INC = -I$(CUDA_HOME)/include -I../../include/
 
 all: $(TARGET)
 
-# $(TARGET): $(OBJS)
-# 	$(NVCC) -shared -o $@ $^
-
 $(TARGET) : $(OBJS)
 	ar cr $@ $^
 	ranlib $@
@@ -35,10 +32,6 @@ $(TARGET) : $(OBJS)
 
 %.cc.o: %.cc
 	$(CC) $(CC_FLAGS) $(INC) -c $< -o $@
-
-# install: all
-# 	mkdir -p lib
-# 	cp $(TARGET) lib/$(TARGET)
 
 clean:
 	rm -f *.o $(TARGET)
